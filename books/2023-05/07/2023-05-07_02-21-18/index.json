@@ -1,0 +1,452 @@
+{
+  "book_title": "Python Machine Learning",
+  "subtitle": "A Practical Guide to Building Intelligent Systems",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "short_chapter_description": "This chapter provides an overview of machine learning and its applications.",
+      "chapter_pages": 20,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "short_subchapter_description": "This section defines machine learning and its types.",
+          "subchapter_pages": 10,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Supervised Learning",
+              "short_section_description": "This section explains supervised learning and its algorithms.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Unsupervised Learning",
+              "short_section_description": "This section explains unsupervised learning and its algorithms.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Applications of Machine Learning",
+          "short_subchapter_description": "This section provides examples of machine learning applications.",
+          "subchapter_pages": 10,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Image Recognition",
+              "short_section_description": "This section explains how machine learning is used in image recognition.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Natural Language Processing",
+              "short_section_description": "This section explains how machine learning is used in natural language processing.",
+              "section_pages": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Python for Machine Learning",
+      "short_chapter_description": "This chapter covers the basics of Python programming for machine learning.",
+      "chapter_pages": 50,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Python Basics",
+          "short_subchapter_description": "This section covers the basics of Python programming.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Variables and Data Types",
+              "short_section_description": "This section explains variables and data types in Python.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Control Structures",
+              "short_section_description": "This section explains control structures in Python.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Functions",
+              "short_section_description": "This section explains functions in Python.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Modules",
+              "short_section_description": "This section explains modules in Python.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "NumPy and Pandas",
+          "short_subchapter_description": "This section covers NumPy and Pandas libraries for data manipulation.",
+          "subchapter_pages": 30,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "NumPy",
+              "short_section_description": "This section explains NumPy library for numerical computing.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Pandas",
+              "short_section_description": "This section explains Pandas library for data manipulation.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 3,
+              "section_title": "Data Visualization",
+              "short_section_description": "This section explains data visualization using Matplotlib library.",
+              "section_pages": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Supervised Learning",
+      "short_chapter_description": "This chapter covers supervised learning algorithms.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "short_subchapter_description": "This section covers linear regression algorithm.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Simple Linear Regression",
+              "short_section_description": "This section explains simple linear regression.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Multiple Linear Regression",
+              "short_section_description": "This section explains multiple linear regression.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Polynomial Regression",
+              "short_section_description": "This section explains polynomial regression.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Regularization",
+              "short_section_description": "This section explains regularization techniques.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "short_subchapter_description": "This section covers logistic regression algorithm.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Binary Logistic Regression",
+              "short_section_description": "This section explains binary logistic regression.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Multinomial Logistic Regression",
+              "short_section_description": "This section explains multinomial logistic regression.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Regularization",
+              "short_section_description": "This section explains regularization techniques.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for classification models.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "short_subchapter_description": "This section covers decision tree algorithm.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Classification Trees",
+              "short_section_description": "This section explains classification trees.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Regression Trees",
+              "short_section_description": "This section explains regression trees.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Ensemble Methods",
+              "short_section_description": "This section explains ensemble methods for decision trees.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for decision tree models.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Support Vector Machines",
+          "short_subchapter_description": "This section covers support vector machine algorithm.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Linear SVM",
+              "short_section_description": "This section explains linear SVM.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Nonlinear SVM",
+              "short_section_description": "This section explains nonlinear SVM.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Kernel Trick",
+              "short_section_description": "This section explains kernel trick for SVM.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for SVM models.",
+              "section_pages": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Unsupervised Learning",
+      "short_chapter_description": "This chapter covers unsupervised learning algorithms.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Clustering",
+          "short_subchapter_description": "This section covers clustering algorithms.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "K-Means Clustering",
+              "short_section_description": "This section explains K-Means clustering.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Hierarchical Clustering",
+              "short_section_description": "This section explains hierarchical clustering.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "DBSCAN",
+              "short_section_description": "This section explains DBSCAN clustering.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for clustering models.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Dimensionality Reduction",
+          "short_subchapter_description": "This section covers dimensionality reduction algorithms.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Principal Component Analysis",
+              "short_section_description": "This section explains principal component analysis.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "t-SNE",
+              "short_section_description": "This section explains t-SNE algorithm.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Autoencoders",
+              "short_section_description": "This section explains autoencoders for dimensionality reduction.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for dimensionality reduction models.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Association Rule Learning",
+          "short_subchapter_description": "This section covers association rule learning algorithms.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Apriori Algorithm",
+              "short_section_description": "This section explains Apriori algorithm.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Eclat Algorithm",
+              "short_section_description": "This section explains Eclat algorithm.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for association rule learning models.",
+              "section_pages": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Deep Learning",
+      "short_chapter_description": "This chapter covers deep learning algorithms.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Artificial Neural Networks",
+          "short_subchapter_description": "This section covers artificial neural networks.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Feedforward Neural Networks",
+              "short_section_description": "This section explains feedforward neural networks.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Convolutional Neural Networks",
+              "short_section_description": "This section explains convolutional neural networks.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Recurrent Neural Networks",
+              "short_section_description": "This section explains recurrent neural networks.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for neural network models.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Deep Learning Frameworks",
+          "short_subchapter_description": "This section covers deep learning frameworks.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "TensorFlow",
+              "short_section_description": "This section explains TensorFlow framework.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Keras",
+              "short_section_description": "This section explains Keras framework.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "PyTorch",
+              "short_section_description": "This section explains PyTorch framework.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 4,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for deep learning models.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Generative Adversarial Networks",
+          "short_subchapter_description": "This section covers generative adversarial networks.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "GAN Architecture",
+              "short_section_description": "This section explains GAN architecture.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "DCGAN",
+              "short_section_description": "This section explains DCGAN.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Evaluation Metrics",
+              "short_section_description": "This section explains evaluation metrics for GAN models.",
+              "section_pages": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
