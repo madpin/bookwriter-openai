@@ -1,0 +1,180 @@
+{
+    "book_title": "Machine Learning with Python",
+    "subtitle": "A Practical Guide to Building Intelligent Systems",
+    "chapters": [
+        {
+            "chapter_number": 1,
+            "chapter_title": "Introduction to Machine Learning",
+            "chapter_description": "This chapter gives an overview of the types of problems machine learning can solve and the different types of machine learning algorithms. It also introduces the Python packages and frameworks used throughout the book.",
+            "chapter_pages": 20,
+            "subchapters": [
+                {
+                    "subchapter_number": 1.1,
+                    "subchapter_title": "What is Machine Learning?",
+                    "subchapter_description": "This subchapter provides a definition of machine learning and explains the difference between supervised, unsupervised, and reinforcement learning.",
+                    "subchapter_pages": 10
+                },
+                {
+                    "subchapter_number": 1.2,
+                    "subchapter_title": "Popular Machine Learning Frameworks and Packages in Python",
+                    "subchapter_description": "This subchapter introduces the popular Python packages and frameworks used in machine learning, such as NumPy, Pandas, Scikit-Learn, TensorFlow, and Keras.",
+                    "subchapter_pages": 10
+                }
+            ]
+        },
+        {
+            "chapter_number": 2,
+            "chapter_title": "Data Preprocessing and Exploration",
+            "chapter_description": "This chapter covers the process of cleaning, transforming, and normalizing data to prepare it for machine learning algorithms. It also includes techniques for visualizing and exploring data.",
+            "chapter_pages": 50,
+            "subchapters": [
+                {
+                    "subchapter_number": 2.1,
+                    "subchapter_title": "Dealing with Missing Data and Outliers",
+                    "subchapter_description": "This subchapter explains different techniques to handle missing data and outliers in a dataset.",
+                    "subchapter_pages": 15
+                },
+                {
+                    "subchapter_number": 2.2,
+                    "subchapter_title": "Feature Scaling",
+                    "subchapter_description": "This subchapter explains the importance of scaling features and provides different techniques for feature scaling.",
+                    "subchapter_pages": 10
+                },
+                {
+                    "subchapter_number": 2.3,
+                    "subchapter_title": "Data Visualization",
+                    "subchapter_description": "This subchapter covers different visualization techniques to explore and understand data, such as histograms, scatter plots, and heatmaps.",
+                    "subchapter_pages": 15
+                },
+                {
+                    "subchapter_number": 2.4,
+                    "subchapter_title": "Feature Engineering",
+                    "subchapter_description": "This subchapter explains the process of creating new features from existing ones to improve the performance of a machine learning model.",
+                    "subchapter_pages": 10
+                }
+            ]
+        },
+        {
+            "chapter_number": 3,
+            "chapter_title": "Supervised Learning",
+            "chapter_description": "This chapter covers the most popular supervised learning algorithms, including linear regression, logistic regression, decision trees, random forests, and support vector machines.",
+            "chapter_pages": 100,
+            "subchapters": [
+                {
+                    "subchapter_number": 3.1,
+                    "subchapter_title": "Linear Regression",
+                    "subchapter_description": "This subchapter covers the basics of linear regression and includes simple linear regression and multiple linear regression.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 3.2,
+                    "subchapter_title": "Logistic Regression",
+                    "subchapter_description": "This subchapter introduces the logistic regression algorithm for classification problems.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 3.3,
+                    "subchapter_title": "Decision Trees",
+                    "subchapter_description": "This subchapter introduces the decision tree algorithm and covers topics such as information gain, entropy, and pruning.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 3.4,
+                    "subchapter_title": "Random Forests",
+                    "subchapter_description": "This subchapter introduces the random forest algorithm and covers topics such as bagging and feature importance.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 3.5,
+                    "subchapter_title": "Support Vector Machines",
+                    "subchapter_description": "This subchapter introduces the support vector machine algorithm and covers topics such as kernels, regularization, and hyperparameter tuning.",
+                    "subchapter_pages": 20
+                }
+            ]
+        },
+        {
+            "chapter_number": 4,
+            "chapter_title": "Unsupervised Learning",
+            "chapter_description": "This chapter covers popular unsupervised learning algorithms, including k-means clustering, hierarchical clustering, and principal component analysis.",
+            "chapter_pages": 70,
+            "subchapters": [
+                {
+                    "subchapter_number": 4.1,
+                    "subchapter_title": "K-Means Clustering",
+                    "subchapter_description": "This subchapter covers the k-means clustering algorithm, including initialization methods and elbow plots.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 4.2,
+                    "subchapter_title": "Hierarchical Clustering",
+                    "subchapter_description": "This subchapter covers the hierarchical clustering algorithm, including agglomerative clustering and dendrograms.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 4.3,
+                    "subchapter_title": "Principal Component Analysis",
+                    "subchapter_description": "This subchapter covers the principal component analysis algorithm for reducing the dimensionality of a dataset.",
+                    "subchapter_pages": 30
+                }
+            ]
+        },
+        {
+            "chapter_number": 5,
+            "chapter_title": "Neural Networks and Deep Learning",
+            "chapter_description": "This chapter covers the basics of neural networks and deep learning, including feedforward neural networks, convolutional neural networks, and recurrent neural networks.",
+            "chapter_pages": 110,
+            "subchapters": [
+                {
+                    "subchapter_number": 5.1,
+                    "subchapter_title": "Feedforward Neural Networks",
+                    "subchapter_description": "This subchapter covers the basics of feedforward neural networks and includes topics such as activation functions, backpropagation, and overfitting.",
+                    "subchapter_pages": 30
+                },
+                {
+                    "subchapter_number": 5.2,
+                    "subchapter_title": "Convolutional Neural Networks",
+                    "subchapter_description": "This subchapter covers the basics of convolutional neural networks and includes topics such as convolutional layers, pooling layers, and transfer learning.",
+                    "subchapter_pages": 30
+                },
+                {
+                    "subchapter_number": 5.3,
+                    "subchapter_title": "Recurrent Neural Networks",
+                    "subchapter_description": "This subchapter covers the basics of recurrent neural networks and includes topics such as LSTM and GRU cells.",
+                    "subchapter_pages": 30
+                },
+                {
+                    "subchapter_number": 5.4,
+                    "subchapter_title": "Introduction to Deep Learning Frameworks",
+                    "subchapter_description": "This subchapter provides an overview of popular deep learning frameworks, such as TensorFlow and Keras, and explains how to build neural networks using these frameworks.",
+                    "subchapter_pages": 20
+                }
+            ]
+        },
+        {
+            "chapter_number": 6,
+            "chapter_title": "Machine Learning in Practice",
+            "chapter_description": "This chapter covers the process of building and deploying machine learning models in real-world scenarios.",
+            "chapter_pages": 50,
+            "subchapters": [
+                {
+                    "subchapter_number": 6.1,
+                    "subchapter_title": "Building a Machine Learning Pipeline",
+                    "subchapter_description": "This subchapter covers the process of building a machine learning pipeline, including data ingestion, feature extraction, model training, and deployment.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 6.2,
+                    "subchapter_title": "Deploying Machine Learning Models",
+                    "subchapter_description": "This subchapter covers different methods for deploying machine learning models in production, such as cloud computing and containerization.",
+                    "subchapter_pages": 20
+                },
+                {
+                    "subchapter_number": 6.3,
+                    "subchapter_title": "Challenges in Machine Learning",
+                    "subchapter_description": "This subchapter covers the ethical, legal, and social implications of machine learning and discusses some of the challenges faced by machine learning practitioners.",
+                    "subchapter_pages": 10
+                }
+            ]
+        }
+    ]
+}

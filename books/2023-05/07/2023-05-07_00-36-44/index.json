@@ -1,0 +1,174 @@
+{
+  "book_title": "Machine Learning with Python",
+  "subtitle": "Using Popular Packages and Frameworks",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "chapter_description": "This chapter covers the basics of machine learning, types of machine learning, supervised and unsupervised learning, and important terminologies used in machine learning.",
+      "chapter_pages": 25,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "subchapter_description": "An overview of the concept of machine learning.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Supervised Learning vs Unsupervised Learning",
+          "subchapter_description": "Understanding the difference between supervised and unsupervised learning.",
+          "subchapter_pages": 15
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Python Basics for Machine Learning",
+      "chapter_description": "This chapter covers the basics of coding with Python, including data types, operators, loops, functions, and more.",
+      "chapter_pages": 50,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Python Data Types and Operators",
+          "subchapter_description": "A brief overview of the different data types in Python and how to work with operators.",
+          "subchapter_pages": 15
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Conditional Statements and Loops",
+          "subchapter_description": "How to use conditional statements and loops in Python.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Functions and Modules",
+          "subchapter_description": "Creating and using functions and modules in Python.",
+          "subchapter_pages": 15
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Data Preparation and Preprocessing",
+      "chapter_description": "This chapter covers data preparation techniques, including data cleaning, data transformation, and feature engineering.",
+      "chapter_pages": 75,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Data Cleaning",
+          "subchapter_description": "Cleaning and prepping data for machine learning.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Data Transformation",
+          "subchapter_description": "Transforming data to better fit machine learning models.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Feature Engineering",
+          "subchapter_description": "Creating new features from existing data.",
+          "subchapter_pages": 25
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Supervised Learning",
+      "chapter_description": "This chapter covers supervised learning algorithms, including linear regression, logistic regression, decision trees, and random forests.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "subchapter_description": "Simple and Multiple Linear Regression.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "subchapter_description": "Binary Logistic Regression and Multiclass Classification.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "subchapter_description": "Classification and Regression Trees.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Random Forests",
+          "subchapter_description": "Ensemble Learning with Random Forests.",
+          "subchapter_pages": 25
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Unsupervised Learning",
+      "chapter_description": "This chapter covers unsupervised learning algorithms, including k-Means clustering, Principal Component Analysis (PCA), and Singular Value Decomposition (SVD).",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "k-Means Clustering",
+          "subchapter_description": "Building clusters from data.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Principal Component Analysis (PCA)",
+          "subchapter_description": "Dimensionality Reduction.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Singular Value Decomposition (SVD)",
+          "subchapter_description": "Matrix Factorization.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Association Rule Learning",
+          "subchapter_description": "Discovering patterns in data.",
+          "subchapter_pages": 25
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "Neural Networks and Deep Learning",
+      "chapter_description": "This chapter covers deep learning and neural networks, including feedforward networks, convolutional neural networks (CNNs), and recurrent neural networks (RNNs).",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Feedforward Neural Networks",
+          "subchapter_description": "Building a basic neural network.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Convolutional Neural Networks (CNNs)",
+          "subchapter_description": "Applying CNNs to image classification.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Recurrent Neural Networks (RNNs)",
+          "subchapter_description": "Applying RNNs to sequential data analysis.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Autoencoders",
+          "subchapter_description": "Unsupervised Learning with Autoencoders.",
+          "subchapter_pages": 25
+        }
+      ]
+    }
+  ]
+}

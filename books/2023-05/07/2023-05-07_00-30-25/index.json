@@ -1,0 +1,178 @@
+{
+  "book_title": "Machines that Learn: A Cheesy Guide to Machine Learning",
+  "subtitle": "From Beginner to Expert in 500 Pages",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "chapter_description": "Introducing the fundamental concepts of machine learning, its importance and how it has revolutionized the world of technology today.",
+      "chapter_pages": 20,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "subchapter_description": "Defining machine learning and how it differs from traditional programming.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Types of Machine Learning",
+          "subchapter_description": "Discussing the three major types of machine learning: Supervised, Unsupervised and Reinforcement.",
+          "subchapter_pages": 10
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Data Preparation and Pre-processing",
+      "chapter_description": "The first step in any machine learning project is data preparation. This chapter focuses on data cleaning, pre-processing and preparing your data for machine learning algorithms.",
+      "chapter_pages": 60,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Data Collection",
+          "subchapter_description": "Different ways to collecting data e.g Web Scraping, APIs",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Data Cleaning",
+          "subchapter_description": "Removing inconsistencies, errors, and inaccuracies from your data.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Data Pre-processing",
+          "subchapter_description": "Preparing data for machine learning algorithms",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Data Visualization",
+          "subchapter_description": "Different data visualization tools that helps to understand and insights from the input data",
+          "subchapter_pages": 20
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Supervised Learning",
+      "chapter_description": "This chapter is focused on the most popular type of machine learning, Supervised Learning. Learn how to train and test supervised learning models with real world examples.",
+      "chapter_pages": 120,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "subchapter_description": "A type of regression analysis that models the relationship between independent variables and dependent variables",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "subchapter_description": "Predicts the probability of occurrence of an event by fitting data to a logit function",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "subchapter_description": "Hierarchical tree structures used to model decisions and their possible consequences",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Random Forests",
+          "subchapter_description": "Ensemble learning method for classification, regression and other tasks using a multiple decision trees",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 5,
+          "subchapter_title": "Support Vector Machines",
+          "subchapter_description": "Linear and non-linear models for classification and regression analysis",
+          "subchapter_pages": 30
+        },
+        {
+          "subchapter_number": 6,
+          "subchapter_title": "Neural Networks",
+          "subchapter_description": "Collection of artificial neurons that work together to solve complex problems",
+          "subchapter_pages": 20
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Unsupervised Learning",
+      "chapter_description": "This chapter is focused on the second major type of machine learning, Unsupervised Learning. Learn how to train and test unsupervised learning models with real world examples.",
+      "chapter_pages": 120,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "K-Means Clustering",
+          "subchapter_description": "Partitioning method that attempts to divide a group of observations into K partitional clusters",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Hierarchical Agglomerative Clustering",
+          "subchapter_description": "Method of cluster analysis that builds a hierarchy of clusters from small individual clusters.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Density-Based Clustering",
+          "subchapter_description": "Clusters data points based the density of the data points in a region or area",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Principal Component Analysis (PCA)",
+          "subchapter_description": "Linear transformation technique used to identify patterns in data and compress the data",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 5,
+          "subchapter_title": "Anomaly Detection",
+          "subchapter_description": "Detecting outliers or data points outside the normal data distribution",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 6,
+          "subchapter_title": "Association Rule Mining",
+          "subchapter_description": "Discovering patterns or associations in data, particularly transaction data in relational databases",
+          "subchapter_pages": 20
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Deep Learning",
+      "chapter_description": "This chapter is focused on the most advanced type of machine learning, Deep Learning. Learn how to build, train and test multi-layered neural network models with real world examples.",
+      "chapter_pages": 80,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Feedforward Neural Networks",
+          "subchapter_description": "Multilayer perceptron is a feedforward neural network used for classification and regression",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Convolutional Neural Networks (CNNs)",
+          "subchapter_description": "Specialized neural networks designed to recognize visual imagery such as images and videos",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Recurrent Neural Networks (RNNs)",
+          "subchapter_description": "Designed to recognize patterns in sequences of data such as time series",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Long Short-Term Memory (LSTM)",
+          "subchapter_description": "Special type of RNN model capable of learning long-term dependencies in data",
+          "subchapter_pages": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "book_title": "Machine Learning with Python",
+  "subtitle": "",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "chapter_description": "This chapter will provide an overview of machine learning and its different types. It will also introduce various tools and techniques used in the field.",
+      "chapter_pages": 25,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "subchapter_description": "This subchapter will provide a definition of machine learning and its importance in today's world.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Types of Machine Learning",
+          "subchapter_description": "This subchapter will discuss the different types of machine learning, namely supervised learning, unsupervised learning, and reinforcement learning.",
+          "subchapter_pages": 15
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Getting Started with Python for Machine Learning",
+      "chapter_description": "This chapter will provide a brief introduction to Python programming language and its various libraries and frameworks used in machine learning.",
+      "chapter_pages": 50,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Introduction to Python",
+          "subchapter_description": "This subchapter will introduce the basic programming concepts of Python, such as variables, data types, functions, and control flow statements.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Python Libraries and Frameworks for Machine Learning",
+          "subchapter_description": "This subchapter will provide an overview of some of the popular Python libraries and frameworks used in machine learning, such as NumPy, Pandas, Scikit-learn, and TensorFlow.",
+          "subchapter_pages": 30
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Data Preprocessing and Visualization",
+      "chapter_description": "This chapter will cover the various techniques used to preprocess and visualize data before applying machine learning algorithms.",
+      "chapter_pages": 75,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Data Cleaning and Transformation",
+          "subchapter_description": "This subchapter will cover various methods for cleaning and transforming data, such as missing data imputation, feature scaling, and feature encoding.",
+          "subchapter_pages": 35
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Data Visualization",
+          "subchapter_description": "This subchapter will cover various techniques for data visualization, such as histograms, scatter plots, and heat maps.",
+          "subchapter_pages": 40
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Supervised Learning",
+      "chapter_description": "This chapter will cover the most commonly used supervised learning algorithms, such as linear regression, logistic regression, decision trees, and random forests.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "subchapter_description": "This subchapter will cover the basic concepts of linear regression and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "subchapter_description": "This subchapter will cover the basic concepts of logistic regression and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "subchapter_description": "This subchapter will cover the basic concepts of decision trees and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Random Forests",
+          "subchapter_description": "This subchapter will cover the basic concepts of random forests and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Unsupervised Learning",
+      "chapter_description": "This chapter will cover the most commonly used unsupervised learning algorithms, such as k-means clustering, hierarchical clustering, and principal component analysis.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "K-means Clustering",
+          "subchapter_description": "This subchapter will cover the basic concepts of k-means clustering and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Hierarchical Clustering",
+          "subchapter_description": "This subchapter will cover the basic concepts of hierarchical clustering and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Principal Component Analysis (PCA)",
+          "subchapter_description": "This subchapter will cover the basic concepts of principal component analysis (PCA) and its implementation in Python using scikit-learn library.",
+          "subchapter_pages": 25
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Association Rule Learning",
+          "subchapter_description": "This subchapter will cover the basic concepts of association rule learning and its implementation in Python using Apriori algorithm.",
+          "subchapter_pages": 25
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "Deep Learning",
+      "chapter_description": "This chapter will cover the most commonly used deep learning algorithms, such as artificial neural networks, convolutional neural networks, and recurrent neural networks.",
+      "chapter_pages": 150,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Artificial Neural Networks (ANNs)",
+          "subchapter_description": "This subchapter will cover the basic concepts of artificial neural networks (ANNs) and its implementation in Python using TensorFlow library.",
+          "subchapter_pages": 50
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Convolutional Neural Networks (CNNs)",
+          "subchapter_description": "This subchapter will cover the basic concepts of convolutional neural networks (CNNs) and its implementation in Python using TensorFlow library.",
+          "subchapter_pages": 50
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Recurrent Neural Networks (RNNs)",
+          "subchapter_description": "This subchapter will cover the basic concepts of recurrent neural networks (RNNs) and its implementation in Python using TensorFlow library.",
+          "subchapter_pages": 50
+        }
+      ]
+    }
+  ]
+}
