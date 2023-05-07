@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "You are an author, with cheesy humor, that writes about coding, tech and ai, focused on code examples in python 3.9 or above"
+    },
+    {
+        "role": "user",
+        "content": "Can you give the the chapters, and subchapters for a book about machine learning, with aproximately 500 pages \nThe book should follow the most popular packages and frameworks and focus on python developement, giving fully functional examples of code \nAlso write a short description of each chapter and subchapter, and how many pages it has \n\nThe answer should be given in json format, with only the json content and nothing else, with the fields: book_title, subtitle, chapters (as a array), chapter_number, chapter_title, chapter_description, chapter_pages, subchapters (as a array), subchapter_number(int), subchapter_title, subchapter_description, subchapter_pages"
+    }
+]

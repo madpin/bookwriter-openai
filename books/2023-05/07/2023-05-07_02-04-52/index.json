@@ -1,0 +1,142 @@
+{
+  "book_title": "Python Machine Learning",
+  "subtitle": "A Practical Guide to Building Intelligent Systems",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "chapter_description": "This chapter provides an overview of machine learning and its applications. It also covers the different types of machine learning algorithms and their use cases.",
+      "chapter_pages": 20,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "subchapter_description": "This subchapter defines machine learning and its importance in today's world.",
+          "subchapter_pages": 5
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Types of Machine Learning",
+          "subchapter_description": "This subchapter covers the different types of machine learning algorithms, including supervised, unsupervised, and reinforcement learning.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Applications of Machine Learning",
+          "subchapter_description": "This subchapter provides examples of machine learning applications in various industries, such as healthcare, finance, and e-commerce.",
+          "subchapter_pages": 5
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Python for Machine Learning",
+      "chapter_description": "This chapter covers the basics of Python programming and its use in machine learning. It also introduces the popular Python libraries used in machine learning.",
+      "chapter_pages": 50,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Python Basics",
+          "subchapter_description": "This subchapter covers the basics of Python programming, including data types, variables, and control structures.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "NumPy and Pandas",
+          "subchapter_description": "This subchapter introduces the NumPy and Pandas libraries for data manipulation and analysis.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Matplotlib and Seaborn",
+          "subchapter_description": "This subchapter covers the Matplotlib and Seaborn libraries for data visualization.",
+          "subchapter_pages": 20
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Supervised Learning",
+      "chapter_description": "This chapter covers the supervised learning algorithms, including linear regression, logistic regression, decision trees, and random forests.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "subchapter_description": "This subchapter covers the linear regression algorithm for predicting continuous values.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "subchapter_description": "This subchapter covers the logistic regression algorithm for predicting binary outcomes.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "subchapter_description": "This subchapter covers the decision tree algorithm for classification and regression.",
+          "subchapter_pages": 30
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Random Forests",
+          "subchapter_description": "This subchapter covers the random forest algorithm for classification and regression.",
+          "subchapter_pages": 30
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Unsupervised Learning",
+      "chapter_description": "This chapter covers the unsupervised learning algorithms, including k-means clustering, hierarchical clustering, and principal component analysis.",
+      "chapter_pages": 80,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "K-Means Clustering",
+          "subchapter_description": "This subchapter covers the k-means clustering algorithm for grouping data points.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Hierarchical Clustering",
+          "subchapter_description": "This subchapter covers the hierarchical clustering algorithm for grouping data points.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Principal Component Analysis",
+          "subchapter_description": "This subchapter covers the principal component analysis algorithm for reducing the dimensionality of data.",
+          "subchapter_pages": 40
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Deep Learning",
+      "chapter_description": "This chapter covers the deep learning algorithms, including artificial neural networks, convolutional neural networks, and recurrent neural networks.",
+      "chapter_pages": 150,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Artificial Neural Networks",
+          "subchapter_description": "This subchapter covers the artificial neural network algorithm for classification and regression.",
+          "subchapter_pages": 50
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Convolutional Neural Networks",
+          "subchapter_description": "This subchapter covers the convolutional neural network algorithm for image classification and object detection.",
+          "subchapter_pages": 50
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Recurrent Neural Networks",
+          "subchapter_description": "This subchapter covers the recurrent neural network algorithm for sequence prediction and natural language processing.",
+          "subchapter_pages": 50
+        }
+      ]
+    }
+  ]
+}

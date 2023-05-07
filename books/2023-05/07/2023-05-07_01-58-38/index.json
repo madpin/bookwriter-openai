@@ -1,0 +1,182 @@
+{
+  "book_title": "Python Machine Learning",
+  "subtitle": "A Practical Guide to Building Intelligent Systems",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "chapter_description": "This chapter provides an overview of machine learning and its applications. It also covers the different types of machine learning algorithms and their use cases.",
+      "chapter_pages": 20,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "subchapter_description": "This subchapter defines machine learning and its importance in today's world.",
+          "subchapter_pages": 10
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Types of Machine Learning",
+          "subchapter_description": "This subchapter covers the different types of machine learning algorithms, including supervised, unsupervised, and reinforcement learning.",
+          "subchapter_pages": 10
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Python for Machine Learning",
+      "chapter_description": "This chapter covers the basics of Python programming and its use in machine learning. It also introduces the popular Python libraries used in machine learning.",
+      "chapter_pages": 50,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Python Basics",
+          "subchapter_description": "This subchapter covers the basics of Python programming, including variables, data types, and control structures.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Python Libraries for Machine Learning",
+          "subchapter_description": "This subchapter introduces the popular Python libraries used in machine learning, including NumPy, Pandas, and Matplotlib.",
+          "subchapter_pages": 30
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Data Preprocessing",
+      "chapter_description": "This chapter covers the different techniques used to preprocess data for machine learning. It also covers data cleaning, feature scaling, and feature selection.",
+      "chapter_pages": 60,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Data Cleaning",
+          "subchapter_description": "This subchapter covers the different techniques used to clean data, including handling missing values and outliers.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Feature Scaling",
+          "subchapter_description": "This subchapter covers the different techniques used to scale features, including normalization and standardization.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Feature Selection",
+          "subchapter_description": "This subchapter covers the different techniques used to select features, including univariate and recursive feature elimination.",
+          "subchapter_pages": 20
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Supervised Learning",
+      "chapter_description": "This chapter covers the different supervised learning algorithms, including linear regression, logistic regression, decision trees, and random forests.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "subchapter_description": "This subchapter covers linear regression and its use in predicting continuous variables.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "subchapter_description": "This subchapter covers logistic regression and its use in predicting binary outcomes.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "subchapter_description": "This subchapter covers decision trees and their use in classification and regression problems.",
+          "subchapter_pages": 30
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Random Forests",
+          "subchapter_description": "This subchapter covers random forests and their use in classification and regression problems.",
+          "subchapter_pages": 30
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Unsupervised Learning",
+      "chapter_description": "This chapter covers the different unsupervised learning algorithms, including k-means clustering, hierarchical clustering, and principal component analysis.",
+      "chapter_pages": 80,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "K-Means Clustering",
+          "subchapter_description": "This subchapter covers k-means clustering and its use in grouping similar data points.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Hierarchical Clustering",
+          "subchapter_description": "This subchapter covers hierarchical clustering and its use in grouping similar data points.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Principal Component Analysis",
+          "subchapter_description": "This subchapter covers principal component analysis and its use in reducing the dimensionality of data.",
+          "subchapter_pages": 40
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "Deep Learning",
+      "chapter_description": "This chapter covers the basics of deep learning and its use in building neural networks. It also covers popular deep learning frameworks, including TensorFlow and Keras.",
+      "chapter_pages": 90,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Introduction to Deep Learning",
+          "subchapter_description": "This subchapter covers the basics of deep learning and its use in building neural networks.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "TensorFlow",
+          "subchapter_description": "This subchapter covers TensorFlow and its use in building deep learning models.",
+          "subchapter_pages": 30
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Keras",
+          "subchapter_description": "This subchapter covers Keras and its use in building deep learning models.",
+          "subchapter_pages": 40
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_title": "Reinforcement Learning",
+      "chapter_description": "This chapter covers the basics of reinforcement learning and its use in building intelligent systems. It also covers popular reinforcement learning algorithms, including Q-learning and SARSA.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Introduction to Reinforcement Learning",
+          "subchapter_description": "This subchapter covers the basics of reinforcement learning and its use in building intelligent systems.",
+          "subchapter_pages": 20
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Q-Learning",
+          "subchapter_description": "This subchapter covers Q-learning and its use in building intelligent systems.",
+          "subchapter_pages": 40
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "SARSA",
+          "subchapter_description": "This subchapter covers SARSA and its use in building intelligent systems.",
+          "subchapter_pages": 40
+        }
+      ]
+    }
+  ]
+}
