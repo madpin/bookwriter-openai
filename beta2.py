@@ -111,7 +111,7 @@ msg += "chapters:\n"
 for chapter in data["chapters"]:
     msg += f'{chapter["chapter_number"]}: {chapter["chapter_title"]} ({chapter["chapter_description"]})\n'
     for subchap in chapter["subchapters"]:
-        msg += f'{subchap["subchapter_number"]}: {subchap["subchapter_title"]} ({subchap["subchapter_description"]})\n'
+        msg += f'{subchap["subchapter_number"]}: {subchap["subchapter_title"]}\n'
 msg += "\n\n"
 msg += "I want you to write the subchapter 2.1: Data Preprocessing (In this subchapter, readers will learn how to clean and preprocess the data. They will learn techniques to handle missing values and format the data into a readable form.)"
 msg += "The output should be a markdown file with aproximately 25 pages."
@@ -133,7 +133,7 @@ logger.debug(f"messages: {messages}")
 with open(f"{BOOK_FOLDER}/prompt_chapter_2.1.json", mode="w") as file:
     json.dump(messages, file, indent=4)
 
-response = get_completion_from_messages(messages, temperature=1)
+response = get_completion_from_messages(messages, temperature=0)
 logger.debug(response)
 
 with open(f"{BOOK_FOLDER}/subchapter_2.1.md", mode="w") as file:

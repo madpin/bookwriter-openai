@@ -1,6 +1,6 @@
-from datetime import datetime
-import logging
 
+import logging
+from datetime import datetime
 import os
 import json
 import openai
@@ -87,7 +87,7 @@ messages = [
     {
         "role": "user",
         "content": (
-            "Can you give the the chapters, and subchapters "
+            "Can you give the the chapters, subchapters and sections "
             "for a book about machine learning, with aproximately 500 pages \n"
             "The book should follow the most popular packages and frameworks "
             "and focus on python developement, giving fully functional examples of code \n"
@@ -98,7 +98,8 @@ messages = [
             "with the fields: "
             "book_title, subtitle, chapters (as a array), "
             "chapter_number, chapter_title, chapter_description, chapter_pages, subchapters (as a array), "
-            "subchapter_number(int), subchapter_title, subchapter_description, subchapter_pages"
+            "subchapter_number(int), subchapter_title, subchapter_description, subchapter_pages, sections (as a array),"
+            "section_number(int), section_title, section_description, section_pages"
         ),
     },
 ]
@@ -170,6 +171,16 @@ def create_md_file(data, file_path):
                 file.write(f"## {chapter_num}.{subchapter_num} {subchapter_title}\n\n")
                 file.write(f"{subchapter_desc}\n")
                 file.write(f"* Pages: {subchapter_pages}\n\n")
+
+                for section in subchapter["sections"]:
+                    section_num = section["section_number"]
+                    section_title = section["section_title"]
+                    section_desc = section["section_description"]
+                    section_pages = section["section_pages"]
+
+                    file.write(f"## {chapter_num}.{section_num}.{section_num} {section_title}\n\n")
+                    file.write(f"{section_desc}\n")
+                    file.write(f"* Pages: {section_pages}\n\n")
 
 
 create_md_file(index_json, f"{BOOK_FOLDER}/index.md")
