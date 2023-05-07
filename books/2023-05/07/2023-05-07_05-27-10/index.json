@@ -1,0 +1,372 @@
+{
+  "book_title": "Python Machine Learning",
+  "subtitle": "A Practical Guide to Building Intelligent Systems",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction to Machine Learning",
+      "chapter_description": "This chapter provides an overview of machine learning and its applications. It also covers the different types of machine learning algorithms and their use cases.",
+      "chapter_pages": 20,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "What is Machine Learning?",
+          "subchapter_description": "This section defines machine learning and its importance in today's world.",
+          "subchapter_pages": 5,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Supervised Learning",
+              "section_description": "This section covers the basics of supervised learning and its use cases.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Unsupervised Learning",
+              "section_description": "This section covers the basics of unsupervised learning and its use cases.",
+              "section_pages": 5
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Types of Machine Learning Algorithms",
+          "subchapter_description": "This section covers the different types of machine learning algorithms and their use cases.",
+          "subchapter_pages": 15,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Regression",
+              "section_description": "This section covers the basics of regression and its use cases.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 2,
+              "section_title": "Classification",
+              "section_description": "This section covers the basics of classification and its use cases.",
+              "section_pages": 5
+            },
+            {
+              "section_number": 3,
+              "section_title": "Clustering",
+              "section_description": "This section covers the basics of clustering and its use cases.",
+              "section_pages": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Data Preprocessing",
+      "chapter_description": "This chapter covers the different techniques used to preprocess data before feeding it into a machine learning algorithm.",
+      "chapter_pages": 50,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Data Cleaning",
+          "subchapter_description": "This section covers the different techniques used to clean data, such as handling missing values and outliers.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Handling Missing Values",
+              "section_description": "This section covers the different techniques used to handle missing values in a dataset.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Handling Outliers",
+              "section_description": "This section covers the different techniques used to handle outliers in a dataset.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Data Transformation",
+          "subchapter_description": "This section covers the different techniques used to transform data, such as scaling and normalization.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Scaling",
+              "section_description": "This section covers the different techniques used to scale data.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Normalization",
+              "section_description": "This section covers the different techniques used to normalize data.",
+              "section_pages": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Supervised Learning",
+      "chapter_description": "This chapter covers the different supervised learning algorithms and their use cases.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Linear Regression",
+          "subchapter_description": "This section covers the basics of linear regression and its use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Simple Linear Regression",
+              "section_description": "This section covers the basics of simple linear regression.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Multiple Linear Regression",
+              "section_description": "This section covers the basics of multiple linear regression.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Logistic Regression",
+          "subchapter_description": "This section covers the basics of logistic regression and its use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Binary Logistic Regression",
+              "section_description": "This section covers the basics of binary logistic regression.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Multinomial Logistic Regression",
+              "section_description": "This section covers the basics of multinomial logistic regression.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Decision Trees",
+          "subchapter_description": "This section covers the basics of decision trees and their use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Classification Trees",
+              "section_description": "This section covers the basics of classification trees.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Regression Trees",
+              "section_description": "This section covers the basics of regression trees.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Support Vector Machines",
+          "subchapter_description": "This section covers the basics of support vector machines and their use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Linear SVM",
+              "section_description": "This section covers the basics of linear SVM.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Non-Linear SVM",
+              "section_description": "This section covers the basics of non-linear SVM.",
+              "section_pages": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Unsupervised Learning",
+      "chapter_description": "This chapter covers the different unsupervised learning algorithms and their use cases.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "K-Means Clustering",
+          "subchapter_description": "This section covers the basics of K-Means clustering and its use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Clustering with Scikit-Learn",
+              "section_description": "This section covers how to perform clustering with Scikit-Learn.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Evaluating Clustering Performance",
+              "section_description": "This section covers how to evaluate the performance of clustering algorithms.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Hierarchical Clustering",
+          "subchapter_description": "This section covers the basics of hierarchical clustering and its use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Agglomerative Clustering",
+              "section_description": "This section covers the basics of agglomerative clustering.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Divisive Clustering",
+              "section_description": "This section covers the basics of divisive clustering.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Principal Component Analysis",
+          "subchapter_description": "This section covers the basics of principal component analysis and its use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "PCA with Scikit-Learn",
+              "section_description": "This section covers how to perform PCA with Scikit-Learn.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Interpreting PCA Results",
+              "section_description": "This section covers how to interpret the results of PCA.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Association Rule Mining",
+          "subchapter_description": "This section covers the basics of association rule mining and its use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Apriori Algorithm",
+              "section_description": "This section covers the basics of the Apriori algorithm.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Evaluating Association Rules",
+              "section_description": "This section covers how to evaluate the performance of association rule mining algorithms.",
+              "section_pages": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Deep Learning",
+      "chapter_description": "This chapter covers the basics of deep learning and its applications.",
+      "chapter_pages": 100,
+      "subchapters": [
+        {
+          "subchapter_number": 1,
+          "subchapter_title": "Artificial Neural Networks",
+          "subchapter_description": "This section covers the basics of artificial neural networks and their use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Feedforward Neural Networks",
+              "section_description": "This section covers the basics of feedforward neural networks.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Convolutional Neural Networks",
+              "section_description": "This section covers the basics of convolutional neural networks.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 2,
+          "subchapter_title": "Recurrent Neural Networks",
+          "subchapter_description": "This section covers the basics of recurrent neural networks and their use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "LSTM Networks",
+              "section_description": "This section covers the basics of LSTM networks.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "GRU Networks",
+              "section_description": "This section covers the basics of GRU networks.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 3,
+          "subchapter_title": "Autoencoders",
+          "subchapter_description": "This section covers the basics of autoencoders and their use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "Denoising Autoencoders",
+              "section_description": "This section covers the basics of denoising autoencoders.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Variational Autoencoders",
+              "section_description": "This section covers the basics of variational autoencoders.",
+              "section_pages": 10
+            }
+          ]
+        },
+        {
+          "subchapter_number": 4,
+          "subchapter_title": "Generative Adversarial Networks",
+          "subchapter_description": "This section covers the basics of generative adversarial networks and their use cases.",
+          "subchapter_pages": 20,
+          "sections": [
+            {
+              "section_number": 1,
+              "section_title": "GAN Architecture",
+              "section_description": "This section covers the architecture of GANs.",
+              "section_pages": 10
+            },
+            {
+              "section_number": 2,
+              "section_title": "Training GANs",
+              "section_description": "This section covers how to train GANs.",
+              "section_pages": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

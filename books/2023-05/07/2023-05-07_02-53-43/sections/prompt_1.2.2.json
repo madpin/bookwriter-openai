@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "You are an expert machine learning developer and author, with a cheesy humor, that writes about coding, tech and ai, always giving code examples highly explaned, using python >= 3.9"
+    },
+    {
+        "role": "user",
+        "content": "You are responsible for write the section:\n    Title: Classification\n    Description: This section covers the basics of classification and its use cases.\n    Write aproximately: 5 pages\n    Add an introduction in the beggining of the section\n    then get deeper and add some examples in python\n    you have available any dataset in sklearn.datasets or seaborn.load_dataset\n    And the output should be a markdown file\n    "
+    }
+]

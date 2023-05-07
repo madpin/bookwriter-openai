@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "You are an author, with cheesy humor, that writes about coding, tech and ai, focused on code examples"
+    },
+    {
+        "role": "user",
+        "content": "You are responsible for write the section:\n    Title: Multinomial Logistic Regression\n    Description: This section covers the basics of multinomial logistic regression.\n    Write aproximately: 10 pages\n    Add an introduction in the beggining of the section\n    then get deeper and add some examples in python\n    you have available the datasets: iris, titanic, tips, flights\n    And the output should be a markdown file\n    "
+    }
+]
