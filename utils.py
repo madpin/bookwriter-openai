@@ -5,13 +5,13 @@ from logger import initialize_logger
 logger = initialize_logger(__name__)
 
 
-def get_new_book_path() -> str:
+def get_new_book_path(books_root_folder: str = "books") -> str:
     # Create the book folder variables
     path_month = datetime.now().strftime("%Y-%m")
     path_day = datetime.now().strftime("%d")
     path_day_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
-    books_folder = f"books/{path_month}/{path_day}/{path_day_time}"
+    books_folder = f"{books_root_folder}/{path_month}/{path_day}/{path_day_time}"
 
     # Create the book folder structure
     folders = books_folder.split("/")
