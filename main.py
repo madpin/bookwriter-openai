@@ -7,6 +7,7 @@ logger = initialize_logger(__name__)
 
 from openai_local import get_completion, get_completion_from_messages
 from utils import get_new_book_path, get_last_book_path
+from src.main import main as main_v2
 
 
 # def function1a():
@@ -27,23 +28,22 @@ from utils import get_new_book_path, get_last_book_path
 
 def create_index():
     # Your application logic goes here
-    book_path = get_new_book_path()
+    book_path = get_new_book_path("books_consultant")
 
     messages = [
         {
             "role": "system",
             "content": (
                 "You are an author, with cheesy humor, "
-                "that writes about coding, tech and ai, focused on code examples in python 3.9 or above"
+                "that writes about business, tech and consulting, focused on code examples language"
             ),
         },
         {
             "role": "user",
             "content": (
                 "Can you give the the chapters, subchapters and sections "
-                "for a book about machine learning, with aproximately 500 pages \n"
-                "The book should follow the most popular packages and frameworks "
-                "and focus on python developement, giving fully functional examples of code \n"
+                "for a book about how to be a tech consultant, with aproximately 500 pages \n"
+                "The book should follow the most popular business advances "
                 "Also write a short description of each chapter and subchapter, "
                 "and how many pages it has \n\n"
                 "The answer should be given in json format, "
@@ -201,6 +201,10 @@ def create_section(section_complete: str):
         file.write(response)
 
 
+def v2():
+    main_v2()
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Description of your program")
     subparsers = parser.add_subparsers(dest="command", help="Sub-command help")
@@ -221,6 +225,8 @@ if __name__ == "__main__":
     parser_function2 = subparsers.add_parser(
         "create_section", help="Will create a section"
     )
+
+    v2_function = subparsers.add_parser("v2", help="Let's start v2")
     parser_function2.add_argument(
         "-s", "--section", help="Which section should I genenrate", required=True
     )
@@ -235,3 +241,6 @@ if __name__ == "__main__":
 
     elif args["command"] == "create_section":
         create_section(args["section"])
+
+    elif args["command"] == "v2":
+        v2()
